@@ -7,10 +7,11 @@
   background-color: rgb(48, 46, 46);
   font-family: Arial, Helvetica, sans-serif;
   min-width: 320px;
+  position: relative;
 }
 
 .bar{
-  min-height: 60px;
+  min-height: 160px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -33,4 +34,14 @@
 
 .nav-link{
   color: whitesmoke;
+}
+
+.contact{
+  border: 1px solid whitesmoke;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+:root{
+  background-image: url(./../img/estudio-ch--varro-mustapan-coffee-shop-shops-archello.1607075335.1427.jpg);
 }
